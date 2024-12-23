@@ -1,3 +1,82 @@
+/* General body styling */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: white;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Video background styling */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ensures the video covers the entire screen */
+    z-index: -1; /* Ensure the video stays behind all content */
+    filter: none; /* Remove any blur or filters */
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent background for better contrast */
+    position: relative; /* Ensures it stays on top of the video */
+    z-index: 1;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #3b82f6; /* Highlight color on hover */
+}
+
+/* Optional buttons for theme and menu */
+.theme-toggle, .mobile-menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Optional buttons for theme and menu */
+.theme-toggle, .mobile-menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
 /* Premium Name Styles */
 .profile-container {
     display: flex;
@@ -376,7 +455,7 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-image: url('https://wallpaperaccess.com/full/8901660.jpg');
+    background-image: url('https://www.youtube.com/watch?v=0x5mf8BUJZY');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
